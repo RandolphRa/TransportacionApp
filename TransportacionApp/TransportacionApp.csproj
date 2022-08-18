@@ -167,6 +167,8 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Icons\air-conditioning.png" />
+    <Content Include="Icons\close.png" />
     <Content Include="Icons\coche.png" />
     <Content Include="Icons\mantenimiento.png" />
     <Content Include="Icons\printer.png" />

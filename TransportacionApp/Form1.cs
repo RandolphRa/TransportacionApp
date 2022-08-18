@@ -83,10 +83,6 @@ namespace TransportacionApp
             bunifuPages1.PageIndex = 2;
         }
 
-        private void bunifuHSlider3_ValueChanged(object sender, Utilities.BunifuSlider.BunifuHScrollBar.ValueChangedEventArgs e)
-        {
-            bunifuCircleProgress1.Value = bunifuHSlider3.Value;
-        }
 
         private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
@@ -111,6 +107,11 @@ namespace TransportacionApp
         private void bunifuButton1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void bunifuPictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
