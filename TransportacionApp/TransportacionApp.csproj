@@ -169,6 +169,7 @@
   <ItemGroup>
     <Content Include="Icons\coche.png" />
     <Content Include="Icons\mantenimiento.png" />
+    <Content Include="Icons\printer.png" />
     <Content Include="Icons\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

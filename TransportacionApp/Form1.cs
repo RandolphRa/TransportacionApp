@@ -16,7 +16,7 @@ namespace TransportacionApp
         {
             InitializeComponent();
          
-            bunifuRadialGauge2.Value = 0;
+            
         }
 
         private void bunifuButton2_Click(object sender, EventArgs e)
@@ -106,6 +106,11 @@ namespace TransportacionApp
         private void bunifuButton5_Click_1(object sender, EventArgs e)
         {
             bunifuPages1.PageIndex = 2;
+        }
+
+        private void bunifuButton1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
