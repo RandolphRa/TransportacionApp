@@ -65,17 +65,7 @@ namespace TransportacionApp
 
         private void bunifuHSlider2_ValueChanged_1(object sender, Utilities.BunifuSlider.BunifuHScrollBar.ValueChangedEventArgs e)
         {
-            bunifuRadialGauge3.Value = bunifuHSlider2.Value;
-            bunifuRadialGauge4.Value = bunifuHSlider2.Value + 20;
-            bunifuRadialGauge5.Value = bunifuHSlider2.Value;
-         
-            bunifuRadialGauge7.Value = bunifuHSlider2.Value;
-     
-            bunifuRadialGauge9.Value = bunifuHSlider2.Value;
-            bunifuRadialGauge10.Value = bunifuHSlider2.Value + 20;
-            bunifuRadialGauge11.Value = bunifuHSlider2.Value;
-     
-            bunifuRadialGauge13.Value = bunifuHSlider2.Value;
+           
         }
 
         private void bunifuButton5_Click(object sender, EventArgs e)
@@ -112,6 +102,21 @@ namespace TransportacionApp
         private void bunifuPictureBox3_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void bunifuTextBox8_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox12_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox13_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
